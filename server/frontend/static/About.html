@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Dealerships</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+  <div>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; min-height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main About Content -->
+    <div class="container my-5">
+      <div class="card shadow-sm border-0 p-4 mb-4">
+        <div class="banner text-center my-3" name="about-header">
+          <h1 class="display-5 fw-bold text-dark">About Dealerships Network</h1>
+          <p class="lead text-muted mx-auto" style="max-width: 800px;">
+            Welcome to Dealerships, the nation's premier automotive network connecting car buyers with certified local dealerships across the United States. We provide transparent vehicle listings, verified customer reviews, and intelligent sentiment analytics to make your car buying journey seamless and confident.
+          </p>
+        </div>
+
+        <h3 class="text-center mt-4 mb-4 fw-semibold text-secondary">Our Leadership Team</h3>
+
+        <div class="row g-4 justify-content-center">
+          <!-- Team Member 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border text-center p-3">
+              <img class="card-img-top rounded-circle mx-auto mt-3 shadow" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Sarah Jenkins" style="width: 140px; height: 140px; object-fit: cover;" onerror="this.onerror=null; this.src='/static/person.png';">
+              <div class="card-body">
+                <h5 class="card-title fw-bold mb-1">Sarah Jenkins</h5>
+                <p class="text-primary fw-semibold mb-2">Chief Executive Officer</p>
+                <p class="card-text text-muted small">
+                  Sarah brings over 15 years of automotive leadership, guiding strategic partnerships with regional dealerships nationwide.
+                </p>
+                <p class="text-secondary small mb-0"><strong>Email:</strong> <a href="mailto:sarah.jenkins@dealerships.com" class="text-decoration-none">sarah.jenkins@dealerships.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border text-center p-3">
+              <img class="card-img-top rounded-circle mx-auto mt-3 shadow" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="David Rodriguez" style="width: 140px; height: 140px; object-fit: cover;" onerror="this.onerror=null; this.src='/static/person.png';">
+              <div class="card-body">
+                <h5 class="card-title fw-bold mb-1">David Rodriguez</h5>
+                <p class="text-primary fw-semibold mb-2">Chief Technology Officer</p>
+                <p class="card-text text-muted small">
+                  David leads our full-stack engineering team, architecting microservices and real-time review sentiment intelligence.
+                </p>
+                <p class="text-secondary small mb-0"><strong>Email:</strong> <a href="mailto:david.rodriguez@dealerships.com" class="text-decoration-none">david.rodriguez@dealerships.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border text-center p-3">
+              <img class="card-img-top rounded-circle mx-auto mt-3 shadow" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="Emily Chen" style="width: 140px; height: 140px; object-fit: cover;" onerror="this.onerror=null; this.src='/static/person.png';">
+              <div class="card-body">
+                <h5 class="card-title fw-bold mb-1">Emily Chen</h5>
+                <p class="text-primary fw-semibold mb-2">VP of Customer Experience</p>
+                <p class="card-text text-muted small">
+                  Emily champions customer satisfaction, ensuring high standards of dealer review accuracy and transparency for buyers.
+                </p>
+                <p class="text-secondary small mb-0"><strong>Email:</strong> <a href="mailto:emily.chen@dealerships.com" class="text-decoration-none">emily.chen@dealerships.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -72,8 +72,8 @@ The application analyzes review text and returns sentiment information to help i
 Clone the repository:
 
 ```bash
-git clone <YOUR_PUBLIC_GITHUB_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_FOLDER>
+git clone <https://github.com/Sanika-2605/Cars-Dealership_Coursera-Capstone-Project>
+cd Cars-Dealership_Coursera-Capstone-Project
 ```
 
 Navigate to the backend directory:
